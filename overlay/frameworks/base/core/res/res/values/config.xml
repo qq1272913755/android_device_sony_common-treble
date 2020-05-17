@@ -107,6 +107,8 @@
     <string-array name="config_locationProviderPackageNames" translatable="false">
         <!-- The standard AOSP fused location provider -->
         <item>com.android.location.fused</item>
+        <!-- The QC location provider -->
+        <item>com.qualcomm.location</item>
         <!-- The Google provider -->
         <item>com.google.android.gms</item>
     </string-array>
@@ -232,7 +234,7 @@
     </string-array>
 
     <!-- Keep chosen default camera app pinned in memory for faster launching -->
-    <bool name="config_pinnerCameraApp">true</bool>
+    <bool name="config_pinnerCameraApp">false</bool>
 
     <!-- Should the pinner service pin the Home application? -->
     <bool name="config_pinnerHomeApp">true</bool>

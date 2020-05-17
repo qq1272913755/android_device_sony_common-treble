@@ -14,12 +14,18 @@
 
 ### AUDIO
 PRODUCT_PACKAGES += \
-    audio.a2dp.default \
     audio.r_submix.default \
     audio.usb.default
 
-### CAMERA
 PRODUCT_PACKAGES += \
+    audio.a2dp.default \
+    audio.bluetooth.default \
+    android.hardware.bluetooth.a2dp@1.0 \
+    android.hardware.bluetooth.audio@2.0 \
+    android.hardware.bluetooth.audio@2.0-impl
+
+### CAMERA
+#PRODUCT_PACKAGES += \
     Snap
 
 ### CHARGER
